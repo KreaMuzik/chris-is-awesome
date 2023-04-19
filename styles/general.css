@@ -1,3 +1,33 @@
-.dialog {
-    font-size: 20px;
+.main-container {
+    background-color: rgba(255, 255, 255, 0.668);
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 200px 200px 200px;
+}
+.profile-picture-background {
+    background-color: rgba(255, 255, 255, 0.668);
+    position: absolute;
+    left: 20%;
+    top: 5%;
+    width: 1300px;
+}
+
+.quote-paper {
+    background-color: rgba(255, 255, 255, 0.53);
+    left: 45%;
+    right: 45%;
+    width: 600px;
+    
+}
+
+.quote-text {
+    background-color: rgba(255, 255, 255, 0.184);
+    position: absolute;
+}
+
+.chris {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
